@@ -3,3 +3,8 @@ pipelines/
 __pycache__/
 *.pyc
 *.log
+*.pt
+*.png
+runs/
+Isometric Pipeline Segmentation.v1i.yolov8/
+direction_coords.json

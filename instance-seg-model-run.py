@@ -6,7 +6,7 @@ import os
 # SETTINGS
 # -------------------------------
 
-DATA_YAML = r"Isometric Pipeline Segmentation.v1i.yolov8\data.yaml"          # your Roboflow dataset yaml
+DATA_YAML = r"Isometric Pipeline Segmentation.v2i.yolov8\data.yaml"       # your Roboflow dataset yaml
 MODEL_NAME = "yolov8s-seg.pt"    # segmentation model
 EPOCHS = 50
 IMAGE_SIZE = 1024
@@ -29,7 +29,7 @@ model.train(
 )
 
 print("\n🎉 Training Completed!")
-best_weight_path = "runs/segment/train/weights/best.pt"
+best_weight_path = "runs2/segment/train/weights/best.pt"
 
 # -------------------------------
 # COPY best.pt TO CURRENT FOLDER

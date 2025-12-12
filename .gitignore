@@ -6,5 +6,7 @@ __pycache__/
 *.pt
 *.png
 runs/
+runs2/
+parts_runs/
 Isometric Pipeline Segmentation.v1i.yolov8/
 direction_coords.json

@@ -5,10 +5,10 @@ import os
 # SETTINGS
 # ----------------------------------
 
-MODEL_PATH = r"runs\segment\train2\weights\best.pt"      # trained YOLO model
-SOURCE = "test.png"         # image or folder
-OUTPUT_NAME = "output.png"  # result saved in base folder
-
+MODEL_PATH = r"runs\segment\train2\weights\best.pt"     # trained YOLO model
+#SOURCE = "test.png"         # image or folder
+OUTPUT_NAME = "output4_new.png"  # result saved in base folder
+SOURCE =r"C:\Users\SHRIYA\Downloads\ilovepdf_pages-to-jpg (6)\TB142551.001.PDF\TB142551.001_page-0001.jpg"
 # ----------------------------------
 # DETECTION
 # ----------------------------------

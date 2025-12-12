@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['elbow', 'flange', 'support', 'tee', 'valve', 'weld']
+
+roboflow:
+  workspace: shriya-salil-shetty
+  project: isometric-pipelining-parts
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/shriya-salil-shetty/isometric-pipelining-parts/dataset/1
